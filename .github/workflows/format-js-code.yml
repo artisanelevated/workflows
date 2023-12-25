@@ -1,6 +1,7 @@
 name: Format JS Code
 
-on: pull_request
+
+on: workflow_call
 
 env:
     PR_NUMBER: '${{ github.event.number }}'
