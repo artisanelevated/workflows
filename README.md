@@ -1,2 +1,2 @@
-# workflows
+# Workflows
 Re-usable workflows
