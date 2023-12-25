@@ -1,6 +1,5 @@
 name: Format JS Code
 
-
 on: workflow_call
 
 env:
