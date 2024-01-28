@@ -16,6 +16,9 @@ jobs:
               with:
                   node-version: 18
 
+            - name: Create env variables
+              run: cp .env.example .env
+              
             - name: Install dependencies
               run: npm ci
 
